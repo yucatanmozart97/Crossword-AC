@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <style>
     table {
       border-collapse: collapse;
@@ -12,7 +13,7 @@
 
     td{
       border: 1px solid black;
-      width: 20px;
+      width: 28px;
       height: 20px;
       text-align: center;
     }
@@ -21,8 +22,32 @@
 </head>
 <body>
   <table >
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+    <td></td>
+    <td>6</td>
+    <td></td>
+    <td>7</td>
+    <td></td>
+    <td></td>
+
+</tr>
+
     <tr>
-    <td><sup>3</sup>r</td>
+      <td>3</td>
+    <td id="ram1"><input onkeyup="validar()" type="text" maxlength="1" id="ram_1"> </td>
     <td></td>
     <td></td>
     <td></td>
@@ -31,74 +56,78 @@
     <td></td>
     <td></td>
     <td></td>
+    <td>1</td>
     <td></td>
     <td></td>
     <td></td>
-    <td></td>
-    <td><sup>6</sup>c</td>
-    <td>p</td>
-    <td><sup>7</sup>u</td>
+    <td id="cpu1"><input onkeyup="validar()" type="text" maxlength="1" id="cpu_1"> </td>
+    <td id="cpu2"><input onkeyup="validar()" type="text" maxlength="1" id="cpu_2"> </td>
+    <td id="cpu3"><input onkeyup="validar()" type="text" maxlength="1" id="cpu_3_ula_1"> </td>
     <td></td>
     <td></td>
     </tr>
-    <tr>
-      
-      
-        <td>a</td>
+    
+
+    <tr>      
+      <td></td>
+        <td id="ram2"><input onkeyup="validar()" type="text" maxlength="1" id="ram_2"> </td>
+        <td>4</td>
+        <td></td>
+        <td></td>
+        <td>5</td>
+        <td>2 </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td id="reg1"><input onkeyup="validar()" type="text" maxlength="1" id="regis_1"> </td>
         <td></td>
         <td></td>
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td><sup>1</sup>r</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td>l</td>
+        <td id="ula2"><input onkeyup="validar()" type="text" maxlength="1" id="ula_2"> </td>
         <td></td>
         <td></td>
     </tr>
    
-    
       <tr>
-        <td><sup>8</sup>m</td>
-        <td><sup>4</sup>e</td>
-        <td>m</td>
-        <td>o</td>
-        <td><sup>5</sup>r</td>
-        <td><sup>2</sup>i</td>
-        <td>a</td>
+        <td>8</td>
+        <td id="m1_ram3"><input onkeyup="validar()" type="text" maxlength="1" id="massa_1"> </td>
+        <td id="m2"><input onkeyup="validar()" type="text" maxlength="1" id="massa_2_eprom_1"> </td>
+        <td id="m3"><input onkeyup="validar()" type="text" maxlength="1" id="massa_3"> </td>
+        <td id="m4"><input onkeyup="validar()" type="text" maxlength="1" id="massa_4"> </td>
+        <td id="m5"><input onkeyup="validar()" type="text" maxlength="1" id="massa_5_rom_1"> </td>
+        <td id="m6"><input onkeyup="validar()" type="text" maxlength="1" id="massa_6_i7_1"> </td>
+        <td id="m7"><input onkeyup="validar()" type="text" maxlength="1" id="massa_7"> </td>
         <td></td>
-        <td>d</td>
-        <td>e</td>
+        <td id="m8"><input onkeyup="validar()" type="text" maxlength="1" id="massa_8"> </td>
+        <td id="reg2_m9"><input onkeyup="validar()" type="text" maxlength="1" id="massa_9_regis"> </td>
         <td></td>
-        <td>m</td>
-        <td>a</td>
-        <td>s</td>
-        <td>s</td>
-        <td>a</td>
+        <td id="m10"><input onkeyup="validar()" type="text" maxlength="1" id="massa_10"> </td>
+        <td id="m11"><input onkeyup="validar()" type="text" maxlength="1" id="massa_11"> </td>
+        <td id="m12"><input onkeyup="validar()" type="text" maxlength="1" id="massa_12"> </td>
+        <td id="m13"><input onkeyup="validar()" type="text" maxlength="1" id="massa_13"> </td>
+        <td id="m14"><input onkeyup="validar()" type="text" maxlength="1" id="massa_14"> </td>
         <td></td>
         <td></td>
     </tr> 
+    
+
 
  
 
     <tr>
       <td></td>
-      <td>p</td>
+      <td></td>
+      <td id="eprom2"><input onkeyup="validar()" type="text" maxlength="1" id="eprom_2"> </td>
       <td></td>
       <td></td>
-      <td>o</td>
-      <td>7</td>
+      <td id="rom2"><input onkeyup="validar()" type="text" maxlength="1" id="rom_2"> </td>
+      <td id="i72"><input onkeyup="validar()" type="text" maxlength="1" id="i7_2"> </td>
       <td></td>
       <td></td>
       <td></td>
-      <td>g</td>
+      <td id="reg3"><input onkeyup="validar()" type="text" maxlength="1" id="regis_3"> </td>
       <td></td>
       <td></td>
       <td></td>
@@ -109,75 +138,82 @@
       <td></td>
   </tr>
 
- 
+
+
   <tr>
     <td></td>
-    <td>r</td>
+    <td></td>
+    <td id="eprom3"><input onkeyup="validar()" type="text" maxlength="1" id="eprom_3"> </td>
     <td></td>
     <td></td>
-    <td>m</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td><sup>9</sup>i</td>
-    <td>5</td>
+    <td id="rom3"><input onkeyup="validar()" type="text" maxlength="1" id="rom_3"> </td>
     <td></td>
     <td></td>
     <td></td>
+    <td>9</td>
+    <td id="reg4_i51"><input onkeyup="validar()" type="text" maxlength="1" id="regis_4_i5_1"></td>
+    <td><input onkeyup="validar()" type="text" maxlength="1" id="i5_2"></td>
     <td></td>
+    <td></td>
+    <td></td>
+    <td>10</td>
     <td></td>
     <td></td>
     <td></td>
 </tr>
 
- 
+
+
+<tr>
+  <td></td>
+  <td></td>
+  <td id="eprom4"><input onkeyup="validar()" type="text" maxlength="1" id="eprom_4"></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td id="reg5"><input onkeyup="validar()" type="text" maxlength="1" id="regis_5"></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td id="cs1"><input onkeyup="validar()" type="text" maxlength="1" id="cs_1"></td>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+
  
 
 <tr>
-  <td></td>
-  <td>o</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td>11</td>
+  <td id="dma1"><input onkeyup="validar()" type="text" maxlength="1" id="dma_1"></td>
+  <td id="dma2"><input onkeyup="validar()" type="text" maxlength="1" id="eprom_5_dma_2"></td>
+  <td id="dma3"><input onkeyup="validar()" type="text" maxlength="1" id="dma_3"></td>
   <td></td>
   <td></td>
   <td></td>
-  <td>s</td>
+  <td>12</td>
+  <td id="dt1"><input onkeyup="validar()" type="text" maxlength="1" id="data_1"></td>
+  <td id="dt2"><input onkeyup="validar()" type="text" maxlength="1" id="data_2"></td>
+  <td id="reg6_dt3"><input onkeyup="validar()" type="text" maxlength="1" id="regis_6_data_3"></td>
+  <td id="dt4"><input onkeyup="validar()" type="text" maxlength="1" id="data_4"></td>
   <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td><sup>10</sup>c</td>
-  <td></td>
-  <td></td>
-  <td></td>
-</tr>
-
-
-
-
-<tr>
-  <td><sup>11</sup>d</td>
-  <td>m</td>
-  <td>a</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td><sup>12</sup>d</td>
-  <td>a</td>
-  <td>t</td>
-  <td>a</td>
-  <td></td>
-  <td>b</td>
-  <td>u</td>
-  <td>s</td>
+  <td id="dt5"><input onkeyup="validar()" type="text" maxlength="1" id="data_5"></td>
+  <td id="dt6"><input onkeyup="validar()" type="text" maxlength="1" id="data_6"></td>
+  <td id="dt7_cs2"><input onkeyup="validar()" type="text" maxlength="1" id="data_7_cs_2"></td>
   <td></td>
   <td></td>
   <td></td>
 </tr>
+
+askjdhaskjda
+askjdhaskjdas
+akjshdkjasda
+kajshdkjasda
 
 
 <tr>
@@ -190,7 +226,8 @@
   <td></td>
   <td></td>
   <td></td>
-  <td>r</td>
+  <td></td>
+  <td id="reg7"><input onkeyup="validar()" type="text" maxlength="1" id="regis_7"></td>
   <td></td>
   <td></td>
   <td></td>
@@ -209,15 +246,16 @@
   <td></td>
   <td></td>
   <td></td>
-  <td><sup>13</sup>q</td>
-  <td>u</td>
-  <td>a</td>
-  <td>d</td>
+  <td>13</td>
+  <td><input onkeyup="validar()" type="text" maxlength="1" id="quad_1"></td>
+  <td><input onkeyup="validar()" type="text" maxlength="1" id="quad_2"></td>
+  <td id="reg8"><input onkeyup="validar()" type="text" maxlength="1" id="regis_8_quad_3"></td>
+  <td><input onkeyup="validar()" type="text" maxlength="1" id="quad_4"></td>
   <td></td>
-  <td>c</td>
-  <td>o</td>
-  <td>r</td>
-  <td>e</td>
+  <td><input onkeyup="validar()" type="text" maxlength="1" id="quad_5"></td>
+  <td><input onkeyup="validar()" type="text" maxlength="1" id="quad_6"></td>
+  <td><input onkeyup="validar()" type="text" maxlength="1" id="quad_7"></td>
+  <td><input onkeyup="validar()" type="text" maxlength="1" id="quad_8"></td>
   <td></td>
   <td></td>
 </tr>
@@ -234,18 +272,17 @@
   <td></td>
   <td></td>
   <td></td>
-  <td><sup>14</sup>d</td>
-  <td>u</td>
-  <td>a</td>
-  <td>l</td>
+  <td>14</td>
+  <td id="reg9"><input onkeyup="validar()" type="text" maxlength="1" id="regis_9_dual_1"></td>
+  <td><input onkeyup="validar()" type="text" maxlength="1" id="dual_2"></td>
+  <td><input onkeyup="validar()" type="text" maxlength="1" id="dual_3"></td>
+  <td><input onkeyup="validar()" type="text" maxlength="1" id="dual_4"></td>
   <td></td>
-  <td>c</td>
-  <td>o</td>
-  <td>r</td>
-  <td>e</td>
+  <td><input onkeyup="validar()" type="text" maxlength="1" id="dual_5"></td>
+  <td><input onkeyup="validar()" type="text" maxlength="1" id="dual_6"></td>
+  <td><input onkeyup="validar()" type="text" maxlength="1" id="dual_7"></td>
+  <td><input onkeyup="validar()" type="text" maxlength="1" id="dual_8"></td>
 </tr>
-
-
 
 <tr>
   <td></td>
@@ -257,7 +294,8 @@
   <td></td>
   <td></td>
   <td></td>
-  <td>o</td>
+  <td></td>
+  <td id="reg10"><input onkeyup="validar()" type="text" maxlength="1" id="regis_10"></td>
   <td></td>
   <td></td>
   <td></td>
@@ -277,18 +315,20 @@
   <td></td>
   <td></td>
   <td></td>
-  <td><sup>15</sup>a</td>
-  <td>d</td>
-  <td>r</td>
-  <td>e</td>
-  <td>s</td>
-  <td>s</td>
+  <td>15</td>
+  <td><input onkeyup="validar()" type="text" maxlength="1" id="adress_1"></td>
+  <td><input onkeyup="validar()" type="text" maxlength="1" id="adress_2"></td>
+  <td id="reg11"><input onkeyup="validar()" type="text" maxlength="1" id="regis_11_adress_3"></td>
+  <td><input onkeyup="validar()" type="text" maxlength="1" id="adress_4"></td>
+  <td><input onkeyup="validar()" type="text" maxlength="1" id="adress_5"></td>
+  <td><input onkeyup="validar()" type="text" maxlength="1" id="adress_6"></td>
   <td></td>
-  <td>b</td>
-  <td>u</td>
-  <td>s</td>
+  <td><input onkeyup="validar()" type="text" maxlength="1" id="adress_7"></td>
+  <td><input onkeyup="validar()" type="text" maxlength="1" id="adress_8"></td>
+  <td><input onkeyup="validar()" type="text" maxlength="1" id="adress_9"></td>
   <td></td>
 </tr>
+
 
 
 
@@ -302,7 +342,8 @@
   <td></td>
   <td></td>
   <td></td>
-  <td>e</td>
+  <td></td>
+  <td id="reg12"><input onkeyup="validar()" type="text" maxlength="1" id="regis_12"></td>
   <td></td>
   <td></td>
   <td></td>
@@ -320,11 +361,12 @@
   <td></td>
   <td></td>
   <td></td>
-  <td><sup>16</sup>f</td>
-  <td>l</td>
-  <td>a</td>
-  <td>s</td>
-  <td>h</td>
+  <td>16</td>
+  <td><input onkeyup="validar()" type="text" maxlength="1" id="flash_1"></td>
+  <td><input onkeyup="validar()" type="text" maxlength="1" id="flash_2"></td>
+  <td><input onkeyup="validar()" type="text" maxlength="1" id="flash_3"></td>
+  <td id="reg13"><input onkeyup="validar()" type="text" maxlength="1" id="regis_13_flash_4"></td>
+  <td><input onkeyup="validar()" type="text" maxlength="1" id="flash_5"></td>
   <td></td>
   <td></td>
   <td></td>
@@ -343,6 +385,145 @@
 </body>
 </html>
 
+<script>
+function validar(){
+  var  reg_r = regis_1.value
+  var  reg_massa_e = massa_9_regis.value
+  var  reg_g = regis_3.value
+  var  reg_i5_i = regis_4_i5_1.value
+  var reg_s = regis_5.value
+  var  reg_data3_t = regis_6_data_3.value
+  var  reg_r2 = regis_7.value
+  var  reg_quad_a = regis_8_quad_3.value
+  var  reg_dual_d = regis_9_dual_1.value
+  var  reg_o = regis_10.value
+  var  reg_adress_r = regis_11_adress_3.value
+  var  reg_e =regis_12.value
+  var  reg_flash_s = regis_13_flash_4.value
 
+if (reg_r = 'r' && reg_massa_e == 'e' && reg_g == 'g' && reg_i5_i == 'i' && reg_s == 's' && reg_data3_t == 't' && reg_r2 == 'r' &&
+ reg_quad_a == 'a' && reg_dual_d == 'd' && reg_o == 'o' && reg_adress_r == 'r' && reg_e == 'e' && reg_flash_s == 's') {
+  reg1.style.backgroundColor = 'green'
+  reg2_m9.style.backgroundColor = 'green'
+  reg3.style.backgroundColor = 'green'
+  reg4_i51.style.backgroundColor = 'green'
+  reg5.style.backgroundColor = 'green'
+  reg6_dt3.style.backgroundColor = 'green'
+  reg7.style.backgroundColor = 'green'
+  reg8.style.backgroundColor = 'green'
+  reg9.style.backgroundColor = 'green'
+  reg10.style.backgroundColor = 'green'
+  reg11.style.backgroundColor = 'green'
+  reg12.style.backgroundColor = 'green'
+  reg13.style.backgroundColor = 'green'
+}
+
+   var cp1 = cpu_1.value
+   var cp2 = cpu_2.value
+   var cp_ula_3 = cpu_3_ula_1.value
+
+   if (cp1 == 'c' && cp2 == 'p' && cp_ula_3 == 'u') {
+ cpu1.style.backgroundColor = "green"
+ cpu2.style.backgroundColor = "green"
+ cpu3.style.backgroundColor = "green"
+   }
+
+  var r1 = ram_1.value
+  var r2 = ram_2.value
+
+  if (r1 == 'r' && r2 == 'a' && massa1_ram3 == 'm') {
+    ram1.style.backgroundColor = 'green'
+    ram2.style.backgroundColor = 'green'
+    m1_ram3.style.backgroundColor = 'green'
+  }
+
+  var ula2 = ula_2.value
+
+  var massa1_ram3 = massa_1.value
+  var massa2_eprom1 = massa_2_eprom_1.value
+  var massa3 = massa_3.value
+  var massa4 = massa_4.value
+  var massa5 = massa_5_rom_1.value
+  var massa6_i71 = massa_6_i7_1.value
+  var massa7 = massa_7.value
+  var massa8 = massa_8.value
+  var massa10 = massa_10.value
+  var massa11 = massa_11.value
+  var massa12 = massa_12.value
+  var massa13 = massa_13.value
+  var massa14 = massa_14.value
+
+  if (massa1_ram3 == 'm' && massa2_eprom1 == 'e' && massa3 == 'm' && massa4 == 'o' && massa5 == 'r' && massa6_i71 == 'i' && massa7 == 'a' &&
+  massa8 == 'd' && reg_massa_e == 'e' && massa10 == 'm' && massa11 == 'a' && massa12 == 's' && massa13 == 's' && massa14 == 'a') {
+    m1_ram3.style.backgroundColor = "green"
+    m2.style.backgroundColor = "green"
+    m3.style.backgroundColor = "green"
+    m4.style.backgroundColor = "green"
+    m5.style.backgroundColor = "green"
+    m6.style.backgroundColor = "green"
+    m7.style.backgroundColor = "green"
+    m8.style.backgroundColor = "green"
+    reg2_m9.style.backgroundColor = "green"
+    m10.style.backgroundColor = "green"
+    m11.style.backgroundColor = "green"
+    m12.style.backgroundColor = "green"
+    m13.style.backgroundColor = "green"
+    m14.style.backgroundColor = "green"
+
+    
+    
+  }
+
+  var eprom2 = eprom_2.value
+  var eprom3 = eprom_3.value
+  var eprom4 = eprom_4.value
+  var eprom5_dma1 = eprom_5_dma_2.value
+
+  if (massa2_eprom1 == 'e' && eprom2 == 'p' && eprom3 == 'r' && eprom4 == 'o' && eprom5_dma2 == 'm') {
+    m2.style.backgroundColor = "green"
+    eprom2.style.backgroundColor = "green"
+    eprom3.style.backgroundColor = "green"
+    eprom4.style.backgroundColor = "green"
+    dma2.style.backgroundColor = "green"
+    
+  }
+ 
+  var rom2 = rom_2.value
+  var rom3 = rom_3.value
+
+  if (massa5 == 'r' && rom2 == 'o' && rom3 == 'm') {
+    m5.style.backgroundColor = "green"
+    rom2.style.backgroundColor = "green"
+    rom3.style.backgroundColor = "green"
+  }
+
+  var i72 = i7_2.value
+
+  var i52 = i5_2.value
+
+  var cs1 = cs_1.value
+
+  var dma1 = dma_1.value
+  var dma3 = dma_3.value
+
+  if (dma1 == 'd' && eprom5_dma2 == 'm' && dma3 == 'a') {
+    dma1.style.backgroundColor = "green"
+    dma2.style.backgroundColor = "green"
+    dma3.style.backgroundColor = "green"
+  }
+
+  var data1 = data_1.value
+  var data2 = data_2.value
+  var data4 = data_4.value
+  var data5 = data_5.value
+  var data6 = data_6.value
+  var data7_cs2 = data_7_cs_2.value
+
+
+  
+}
+
+
+</script>
 
        
