@@ -7,22 +7,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <style>
-    table {
-      border-collapse: collapse;
-    }
-
-    td{
-      border: 1px solid black;
-      width: 28px;
-      height: 20px;
-      text-align: center;
-    }
+   
 
     </style>
 </head>
 <body>
+  <div class="content">
+    <div class="container">
+      <div class="box">
+    <form name="F1">
   <table >
-<tr>
+    <tr>
+  <td></td>
+  <td class="numberDeco">3</td>
   <td></td>
   <td></td>
   <td></td>
@@ -36,140 +33,302 @@
   <td></td>
   <td></td>
   <td></td>
-    <td></td>
-    <td>6</td>
-    <td></td>
-    <td>7</td>
-    <td></td>
-    <td></td>
-
+  <td></td>
+  <td class="numberDeco">7</td>
+  <td></td>
+  <td></td>
+  
 </tr>
 
-    <tr>
-      <td>3</td>
-    <td id="ram1"><input onkeyup="validar()" type="text" maxlength="1" id="ram_1"> </td>
+<tr >
+  <td></td>
+  <td class="td_veri" id="ram1"><input onchange="validar()" type="text" maxlength="1" id="ram_1"  name="ram1" onKeyUp="jumpto('ram1', 'ram2', 'm1')"> </td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+    <td></td>
+    <td></td>
+    <td class="numberDeco">1</td>
+    <td></td>
+    <td></td>
+    <td class="numberDeco">6</td>
+    <td class="td_veri" id="cpu1"><input onchange="validar()" type="text" maxlength="1" id="cpu_1" name="cpu1" onKeyUp="jumpto('cpu1', 'cpu2', 'm1')"> </td>
+    <td class="td_veri" id="cpu2"><input onchange="validar()" type="text" maxlength="1" id="cpu_2" name="cpu2" onKeyUp="jumpto('cpu2', 'cpu3', 'm1')"> </td>
+    <td class="td_veri" id="cpu3"><input onchange="validar()" type="text" maxlength="1" id="cpu_3_ula_1"  name="cpu3" onKeyUp="jumpto('cpu3', 'ula2', 'm1')"> </td>
+    <td></td>
+    <td></td>
+  </tr>
+  
+  
+  <tr>      
+    <td></td>
+    <td class="td_veri" id="ram2"><input onchange="validar()" type="text" maxlength="1" id="ram_2" name="ram2" onKeyUp="jumpto('ram2', 'm1', 'm1')"> </td>
+    <td class="numberDeco">4</td>
+    <td></td>
+    <td></td>
+    <td class="numberDeco">5</td>
+    <td class="numberDeco">2 </td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="td_veri" id="reg1"><input onchange="validar()" type="text" maxlength="1" id="regis_1" name="campo1" onKeyUp="jumpto('campo1', 'campo2',  'm1')"> </td>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
+    <td class="td_veri" id="ula2"><input onchange="validar()" type="text" maxlength="1" id="ula_2" name="ula2" onKeyUp="jumpto('ula2', 'm13', 'm1')"> </td>
     <td></td>
     <td></td>
-    <td></td>
-    <td>1</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td id="cpu1"><input onkeyup="validar()" type="text" maxlength="1" id="cpu_1"> </td>
-    <td id="cpu2"><input onkeyup="validar()" type="text" maxlength="1" id="cpu_2"> </td>
-    <td id="cpu3"><input onkeyup="validar()" type="text" maxlength="1" id="cpu_3_ula_1"> </td>
-    <td></td>
-    <td></td>
-    </tr>
-    
+  </tr>
 
-    <tr>      
-      <td></td>
-        <td id="ram2"><input onkeyup="validar()" type="text" maxlength="1" id="ram_2"> </td>
-        <td>4</td>
+  
+  
+  <tr>
+        <td class="numberDeco">8</td>
+        <td class="td_veri" id="m1_ram3"><input onchange="validar()" type="text" maxlength="1" id="massa_1" name="m1" onKeyUp="jumpto('m1', 'm2', 'm1')"> </td>
+        <td class="td_veri" id="m2"><input onchange="validar()" type="text" maxlength="1" id="massa_2_eprom_1" name="m2" onKeyUp="jumpto('m2', 'm3', 'm1')"> </td>
+        <td class="td_veri" id="m3"><input onchange="validar()" type="text" maxlength="1" id="massa_3" name="m3" onKeyUp="jumpto('m3', 'm4', 'm1')"> </td>
+        <td class="td_veri" id="m4"><input onchange="validar()" type="text" maxlength="1" id="massa_4" name="m4" onKeyUp="jumpto('m4', 'm5', 'm1')"> </td>
+        <td class="td_veri" id="m5"><input onchange="validar()" type="text" maxlength="1" id="massa_5_rom_1" name="m5" onKeyUp="jumpto('m5', 'm6', 'm1')"> </td>
+        <td class="td_veri" id="m6"><input onchange="validar()" type="text" maxlength="1" id="massa_6_i7_1" name="m6" onKeyUp="jumpto('m6', 'm7', 'm1')" name="i71" onKeyUp="jumpto('i71', 'i72')" > </td>
+        <td class="td_veri" id="m7"><input onchange="validar()" type="text" maxlength="1" id="massa_7" name="m7" onKeyUp="jumpto('m7', 'm8', 'm1')"> </td>
         <td></td>
+        <td class="td_veri" id="m8"><input onchange="validar()" type="text" maxlength="1" id="massa_8"  name="m8" onKeyUp="jumpto('m8', 'campo2', 'm9')"> </td>
+        <td class="td_veri" id="reg2_m9"><input onchange="validar()" type="text" maxlength="1" id="massa_9_regis" name="campo2" onKeyUp="jumpto('campo2', 'campo3', 'm1')"> </td>
         <td></td>
-        <td>5</td>
-        <td>2 </td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td id="reg1"><input onkeyup="validar()" type="text" maxlength="1" id="regis_1"> </td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td id="ula2"><input onkeyup="validar()" type="text" maxlength="1" id="ula_2"> </td>
-        <td></td>
-        <td></td>
-    </tr>
-
-    
-   
-      <tr>
-        <td>8</td>
-        <td id="m1_ram3"><input onkeyup="validar()" type="text" maxlength="1" id="massa_1"> </td>
-        <td id="m2"><input onkeyup="validar()" type="text" maxlength="1" id="massa_2_eprom_1"> </td>
-        <td id="m3"><input onkeyup="validar()" type="text" maxlength="1" id="massa_3"> </td>
-        <td id="m4"><input onkeyup="validar()" type="text" maxlength="1" id="massa_4"> </td>
-        <td id="m5"><input onkeyup="validar()" type="text" maxlength="1" id="massa_5_rom_1"> </td>
-        <td id="m6"><input onkeyup="validar()" type="text" maxlength="1" id="massa_6_i7_1"> </td>
-        <td id="m7"><input onkeyup="validar()" type="text" maxlength="1" id="massa_7"> </td>
-        <td></td>
-        <td id="m8"><input onkeyup="validar()" type="text" maxlength="1" id="massa_8"> </td>
-        <td id="reg2_m9"><input onkeyup="validar()" type="text" maxlength="1" id="massa_9_regis"> </td>
-        <td></td>
-        <td id="m10"><input onkeyup="validar()" type="text" maxlength="1" id="massa_10"> </td>
-        <td id="m11"><input onkeyup="validar()" type="text" maxlength="1" id="massa_11"> </td>
-        <td id="m12"><input onkeyup="validar()" type="text" maxlength="1" id="massa_12"> </td>
-        <td id="m13"><input onkeyup="validar()" type="text" maxlength="1" id="massa_13"> </td>
-        <td id="m14"><input onkeyup="validar()" type="text" maxlength="1" id="massa_14"> </td>
+        <td class="td_veri" id="m10"><input onchange="validar()" type="text" maxlength="1" id="massa_10"  name="m9" onKeyUp="jumpto('m9', 'm10', 'm1')"> </td>
+        <td class="td_veri" id="m11"><input onchange="validar()" type="text" maxlength="1" id="massa_11"  name="m10" onKeyUp="jumpto('m10', 'm11', 'm1')"> </td>
+        <td class="td_veri" id="m12"><input onchange="validar()" type="text" maxlength="1" id="massa_12"  name="m11" onKeyUp="jumpto('m11', 'm12', 'm1')"> </td>
+        <td class="td_veri" id="m13"><input onchange="validar()" type="text" maxlength="1" id="massa_13"  name="m12" onKeyUp="jumpto('m12', 'm13', 'm1')"> </td>
+        <td class="td_veri" id="m14"><input onchange="validar()" type="text" maxlength="1" id="massa_14" name="m13" onKeyUp="jumpto('m13', 'cpu1', 'm1')"> </td>
         <td></td>
         <td></td>
     </tr> 
     
-
-
+    
+    
  
-
+    
     <tr>
       <td></td>
       <td></td>
-      <td id="e_2"><input onkeyup="validar()" type="text" maxlength="1" id="eprom_2"> </td>
+      <td class="td_veri" id="e_2"><input onchange="validar()" type="text" maxlength="1" id="eprom_2" name="e2" onKeyUp="jumpto('e2', 'e3', 'm1')"> </td>
       <td></td>
       <td></td>
-      <td id="rom2"><input onkeyup="validar()" type="text" maxlength="1" id="rom_2"> </td>
-      <td id="i_7"><input onkeyup="validar()" type="text" maxlength="1" id="i7_2"> </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td id="reg3"><input onkeyup="validar()" type="text" maxlength="1" id="regis_3"> </td>
+      <td class="td_veri" id="rom2"><input onchange="validar()" type="text" maxlength="1" id="rom_2" name="rom2" onKeyUp="jumpto('rom2', 'rom3', 'm1')"> </td>
+      <td class="td_veri" id="i_7"><input onchange="validar()" type="text" maxlength="1" id="i7_2" name="i72" onKeyUp="jumpto('i72', 'm6', 'm1')"> </td>
       <td></td>
       <td></td>
       <td></td>
+      <td class="td_veri" id="reg3"><input onchange="validar()" type="text" maxlength="1" id="regis_3" name="campo3" onKeyUp="jumpto('campo3', 'campo4', 'm1')"> </td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    
+    
+    <tr>
+      <td></td>
+      <td></td>
+    <td class="td_veri" id="e_3"><input onchange="validar()" type="text" maxlength="1" id="eprom_3" name="e3" onKeyUp="jumpto('e3', 'e4', 'm1')"> </td>
+    <td></td>
+    <td></td>
+    <td class="td_veri" id="rom3"><input onchange="validar()" type="text" maxlength="1" id="rom_3" name="rom3" onKeyUp="jumpto('rom3', 'rom2', 'm1')"> </td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="numberDeco">9</td>
+    <td class="td_veri" id="reg4_i51"><input onchange="validar()" type="text" maxlength="1" id="regis_4_i5_1" name="campo4" onKeyUp="jumpto('campo4', 'campo5', 'm1')"></td>
+    <td class="td_veri" id="i_5"><input onchange="validar()" type="text" maxlength="1" id="i5_2" name="i52" onKeyUp="jumpto('i52', 'campo4', 'm1')"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="numberDeco">10</td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
 
+  
 
-
+  
   <tr>
     <td></td>
     <td></td>
-    <td id="e_3"><input onkeyup="validar()" type="text" maxlength="1" id="eprom_3"> </td>
-    <td></td>
-    <td></td>
-    <td id="rom3"><input onkeyup="validar()" type="text" maxlength="1" id="rom_3"> </td>
+    <td class="td_veri" id="e_4"><input onchange="validar()" type="text" maxlength="1" id="eprom_4" name="e4" onKeyUp="jumpto('e4', 'e2', 'd2')"></td>
     <td></td>
     <td></td>
     <td></td>
-    <td>9</td>
-    <td id="reg4_i51"><input onkeyup="validar()" type="text" maxlength="1" id="regis_4_i5_1"></td>
-    <td id="i_5"><input onkeyup="validar()" type="text" maxlength="1" id="i5_2"></td>
     <td></td>
     <td></td>
     <td></td>
-    <td>10</td>
+    <td></td>
+    <td class="td_veri" id="reg5"><input onchange="validar()" type="text" maxlength="1" id="regis_5" name="campo5" onKeyUp="jumpto('campo5', 'campo6', 'm1')"></td>
     <td></td>
     <td></td>
     <td></td>
+    <td></td>
+    <td class="td_veri" id="c_1"><input onchange="validar()" type="text" maxlength="1" id="cs_1" name="cs1" onKeyUp="jumpto('cs1', 'da7', 'm1')"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  
+ 
+  <tr>
+    <td class="numberDeco">11</td>
+    <td class="td_veri" id="d_1"><input class="input_dma"  onchange="validar()" type="text" maxlength="1" id="dma_1" name="d1" onKeyUp="jumpto('d1', 'd2', 'd3')"></td>
+    <td class="td_veri" id="d_2"><input class="input_dma"  onchange="validar()" type="text" maxlength="1" id="dma_2" name="d2" onKeyUp="jumpto('d2', 'd3', 'm1')"></td>
+    <td class="td_veri" id="d_3"><input class="input_dma"  onchange="validar()" type="text" maxlength="1" id="dma_3" name="d3" onKeyUp="jumpto('d3', 'd1', 'm1')"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="numberDeco">12</td>
+    <td class="td_veri" id="dt1"><input onchange="validar()" type="text" maxlength="1" id="data_1" name="da1" onKeyUp="jumpto('da1', 'da2', 'm1')"></td>
+    <td class="td_veri" id="dt2"><input onchange="validar()" type="text" maxlength="1" id="data_2" name="da2" onKeyUp="jumpto('da2', 'campo6', 'da4')"></td>
+    <td class="td_veri" id="reg6_dt3"><input onchange="validar()" type="text" maxlength="1" id="regis_6_data_3" name="campo6" onKeyUp="jumpto('campo6', 'campo7', 'm1')"></td>
+    <td class="td_veri" id="dt4"><input onchange="validar()" type="text" maxlength="1" id="data_4" name="da4" onKeyUp="jumpto('da4', 'da5', 'm1')"></td>
+    <td></td>
+    <td class="td_veri" id="dt5"><input onchange="validar()" type="text" maxlength="1" id="data_5" name="da5" onKeyUp="jumpto('da5', 'da6', 'm1')"></td>
+    <td class="td_veri" id="dt6"><input onchange="validar()" type="text" maxlength="1" id="data_6" name="da6" onKeyUp="jumpto('da6', 'da7', 'm1')"></td>
+    <td class="td_veri" id="dt7_cs2"><input onchange="validar()" type="text" maxlength="1" id="data_7_cs_2" name="da7" onKeyUp="jumpto('da7', 'cs1', 'm1')"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  
+  
+  
+  
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class="td_veri" id="reg7"><input onchange="validar()" type="text" maxlength="1" id="regis_7" name="campo7" onKeyUp="jumpto('campo7', 'campo8', 'm1')"></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
 </tr>
+
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class="numberDeco">13</td>
+  <td class="td_veri" id="q_1"><input onchange="validar()" type="text" maxlength="1" id="quad_1" name="q1" onKeyUp="jumpto('q1', 'q2', 'm1')"></td>
+  <td class="td_veri" id="q_2"><input onchange="validar()" type="text" maxlength="1" id="quad_2" name="q2" onKeyUp="jumpto('q2', 'campo8', 'q4')"></td>
+  <td class="td_veri" id="reg8"><input onchange="validar()" type="text" maxlength="1" id="regis_8_quad_3" name="campo8" onKeyUp="jumpto('campo8', 'campo9', 'm1')"></td>
+  <td class="td_veri" id="q_4"><input onchange="validar()" type="text" maxlength="1" id="quad_4" name="q4" onKeyUp="jumpto('q4', 'q5', 'm1')"></td>
+  <td></td>
+  <td class="td_veri" id="q_5"><input onchange="validar()" type="text" maxlength="1" id="quad_5" name="q5" onKeyUp="jumpto('q5', 'q6', 'm1')"></td>
+  <td class="td_veri" id="q_6"><input onchange="validar()" type="text" maxlength="1" id="quad_6" name="q6" onKeyUp="jumpto('q6', 'q7', 'm1')"></td>
+  <td class="td_veri" id="q_7"><input onchange="validar()" type="text" maxlength="1" id="quad_7" name="q7" onKeyUp="jumpto('q7', 'q8', 'm1')"></td>
+  <td class="td_veri" id="q_8"><input onchange="validar()" type="text" maxlength="1" id="quad_8" name="q8" onKeyUp="jumpto('q8', 'q1', 'm1')"></td>
+  <td></td>
+  <td></td>
+</tr>
+
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class="numberDeco">14</td>
+  <td class="td_veri" id="reg9"><input onchange="validar()" type="text" maxlength="1" id="regis_9_dual_1" name="campo9" onKeyUp="jumpto('campo9', 'campo10')"></td>
+  <td class="td_veri" id="du_2"><input onchange="validar()" type="text" maxlength="1" id="dual_2" name="dual2" onKeyUp="jumpto('dual2', 'dual3', 'm1')"></td>
+  <td class="td_veri" id="du_3"><input onchange="validar()" type="text" maxlength="1" id="dual_3" name="dual3" onKeyUp="jumpto('dual3', 'dual4', 'm1')"></td>
+  <td class="td_veri" id="du_4"><input onchange="validar()" type="text" maxlength="1" id="dual_4" name="dual4" onKeyUp="jumpto('dual4', 'dual5', 'm1')"></td>
+  <td ></td>
+  <td class="td_veri" id="du_5"><input onchange="validar()" type="text" maxlength="1" id="dual_5" name="dual5" onKeyUp="jumpto('dual5', 'dual6', 'm1')"></td>
+  <td class="td_veri" id="du_6"><input onchange="validar()" type="text" maxlength="1" id="dual_6" name="dual6" onKeyUp="jumpto('dual6', 'dual7', 'm1')"></td>
+  <td class="td_veri" id="du_7"><input onchange="validar()" type="text" maxlength="1" id="dual_7" name="dual7" onKeyUp="jumpto('dual7', 'dual8', 'm1')"></td>
+  <td class="td_veri" id="du_8"><input onchange="validar()" type="text" maxlength="1" id="dual_8" name="dual8" onKeyUp="jumpto('dual8', 'dual2', 'm1')"></td>
+</tr>
+
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class="td_veri" id="reg10"><input onchange="validar()" type="text" maxlength="1" id="regis_10" name="campo10" onKeyUp="jumpto('campo10', 'campo11', 'm1')"></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+
+
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class="numberDeco">15</td>
+  <td class="td_veri" id="ad1"><input onchange="validar()" type="text" maxlength="1" id="adress_1" name="adr1" onKeyUp="jumpto('adr1', 'adr2', 'm1')"></td>
+  <td class="td_veri" id="ad2"><input onchange="validar()" type="text" maxlength="1" id="adress_2"  name="adr2" onKeyUp="jumpto('adr2', 'campo11', 'adr4')"></td>
+  <td class="td_veri" id="reg11"><input onchange="validar()" type="text" maxlength="1" id="regis_11_adress_3" name="campo11" onKeyUp="jumpto('campo11', 'campo12', 'm1')"></td>
+  <td class="td_veri" id="ad4"><input onchange="validar()" type="text" maxlength="1" id="adress_4"  name="adr4" onKeyUp="jumpto('adr4', 'adr5', 'm1')"></td>
+  <td class="td_veri" id="ad5"><input onchange="validar()" type="text" maxlength="1" id="adress_5"  name="adr5" onKeyUp="jumpto('adr5', 'adr6', 'm1')"></td>
+  <td class="td_veri" id="ad6"><input onchange="validar()" type="text" maxlength="1" id="adress_6"  name="adr6" onKeyUp="jumpto('adr6', 'adr7', 'm1')"></td>
+  <td></td>
+  <td class="td_veri" id="ad7"><input onchange="validar()" type="text" maxlength="1" id="adress_7"  name="adr7" onKeyUp="jumpto('adr7', 'adr8', 'm1')"></td>
+  <td class="td_veri" id="ad8"><input onchange="validar()" type="text" maxlength="1" id="adress_8"  name="adr8" onKeyUp="jumpto('adr8', 'adr9', 'm1')"></td>
+  <td class="td_veri" id="ad9"><input onchange="validar()" type="text" maxlength="1" id="adress_9"  name="adr9" onKeyUp="jumpto('adr9', 'adr1', 'm1')"></td>
+  <td ></td>
+  <td></td>
+  <td></td>
+</tr>
+
 
 
 
 <tr>
   <td></td>
   <td></td>
-  <td id="e_4"><input onkeyup="validar()" type="text" maxlength="1" id="eprom_4"></td>
   <td></td>
   <td></td>
   <td></td>
@@ -177,221 +336,79 @@
   <td></td>
   <td></td>
   <td></td>
-  <td id="reg5"><input onkeyup="validar()" type="text" maxlength="1" id="regis_5"></td>
+  <td></td>
+  <td class="td_veri" id="reg12"><input onchange="validar()" type="text" maxlength="1" id="regis_12" name="campo12" onKeyUp="jumpto('campo12', 'campo13', 'm1')"></td>
   <td></td>
   <td></td>
   <td></td>
   <td></td>
-  <td id="c_1"><input onkeyup="validar()" type="text" maxlength="1" id="cs_1"></td>
+  <td></td>
   <td></td>
   <td></td>
   <td></td>
 </tr>
+
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class="numberDeco">16</td>
+  <td class="td_veri" id="f_1"><input onchange="validar()" type="text" maxlength="1" id="flash_1"  name="f1" onKeyUp="jumpto('f1', 'f2', 'm1')"></td>
+  <td class="td_veri" id="f_2"><input onchange="validar()" type="text" maxlength="1" id="flash_2" name="f2" onKeyUp="jumpto('f2', 'f3', 'm1')"></td>
+  <td class="td_veri" id="f_3"><input onchange="validar()" type="text" maxlength="1" id="flash_3" name="f3" onKeyUp="jumpto('f3', 'campo13', 'f5')"></td>
+  <td class="td_veri" id="reg13"><input onchange="validar()" type="text" maxlength="1" id="regis_13_flash_4" name="campo13" onKeyUp="jumpto('campo13', 'campo1', 'campo1')"></td>
+  <td class="td_veri" id="f_5"><input onchange="validar()" type="text" maxlength="1" id="flash_5" name="f5" onKeyUp="jumpto('f5', 'f1', 'campo1')"></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+
+
+
+</table>
+</form>
+</div>
+<div class="box2">
+  <div class="contentDica">
+  Dicas <br><br>
+ <span id="span_dica1"> 1 - Está no topo da hierarquia de memória, sendo assim, é um tipo de memória mais rápida e financeiramente mais custosa. Apesar do alto custo por bit armazenado, sua velocidade de acesso é essencial para o funcionamento dos computadores modernos. </span> <br> <br>
+ <span id="span_dica2"> 2 - Faz parte das séries de processadores da Intel, tanto para desktop quanto para notebooks. Seu lançamento foi em 2008, buscando alto desempenho com foco em entusiasta e empresas. A primeira geração tinha 4 núcleos, cache L3 e frequência de 2,80GHz. </span> <br> <br>
+  <span id="span_dica3"> 3 - Guarda temporariamente toda a informação que o computador precisa para aquele momento ou para um futuro próximo. </span> <br> <br>
+  <span id="span_dica4"> 4 -  Caracteriza-se por conseguir ser apagada. Para isso, no entanto, é necessário expô-la a uma forte luz ultravioleta. </span> <br> <br>
+  <span id="span_dica5"> 5 -  É um tipo de memória que, como o próprio nome sugere, permite apenas a leitura de dados e não a escrita. </span> <br> <br>
+  <span id="span_dica6"> 6 - Ele é o principal item de hardware do computador, é responsável por calcular e realizar tarefas determinadas pelo usuário e é considerado o cérebro do PC. </span> <br> <br>
+  <span id="span_dica7"> 7 - Executa as principais operações lógicas e aritméticas do computador. Ela soma, subtrai, divide, determina se um número é positivo ou negativo ou se é zero. </span> <br> <br>
+  <span id="span_dica8"> 8 - Tem como função armazenar grandes quantidades de informações. Os dados armazenados não são perdidos quando desligamos o equipamento. </span> <br> <br>
+  <span id="span_dica9"> 9 - É uma das séries de processadores para desktops e notebooks da Intel. O primeiro modelo foi lançado em setembro de 2009. Ele possui quatro núcleos, cache L3 de 8MB e frequência de 2,66GHz. </span> <br> <br>
+  <span id="span_dica10"> 10 - É o nome de uma linha de controle em eletrônica digital usada para selecionar um (ou um conjunto) de circuitos integrados. </span> <br> <br>
+ <span id="span_dica11"> 11 - É um recurso da placa mãe que capacita os periféricos a terem acesso direto à memória RAM, sem sobrecarregarem o processador. </span> <br> <br>
+ <span id="span_dica12"> 12 - É um dispositivo em que através do interior de um computador são transportados dados e informações importantes. </span> <br> <br>
+ <span id="span_dica13"> 13 - Quando o processador tem 4 nucleos. </span> <br> <br>
+ <span id="span_dica14"> 14 - Quando o processador tem 2 nucleos. </span> <br> <br>
+ <span id="span_dica15"> 15 - Acesso direto à memória (DMA) para localizar o endereço físico para comunicar comandos de leitura / gravação. </span> <br> <br>
+ <span id="span_dica16"> 16 -  É uma memória cujos chips são semelhantes ao da Memória RAM, que permite que diversos endereços sejam apagados ou escritos numa só operação. É um chip re-escrevível regravável. </span> <br> <br>
 
  
 
-<tr>
-  <td>11</td>
-  <td id="d_1"><input onkeyup="validar()" type="text" maxlength="1" id="dma_1"></td>
-  <td id="d_2"><input onkeyup="validar()" type="text" maxlength="1" id="dma_2"></td>
-  <td id="d_3"><input onkeyup="validar()" type="text" maxlength="1" id="dma_3"></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td>12</td>
-  <td id="dt1"><input onkeyup="validar()" type="text" maxlength="1" id="data_1"></td>
-  <td id="dt2"><input onkeyup="validar()" type="text" maxlength="1" id="data_2"></td>
-  <td id="reg6_dt3"><input onkeyup="validar()" type="text" maxlength="1" id="regis_6_data_3"></td>
-  <td id="dt4"><input onkeyup="validar()" type="text" maxlength="1" id="data_4"></td>
-  <td></td>
-  <td id="dt5"><input onkeyup="validar()" type="text" maxlength="1" id="data_5"></td>
-  <td id="dt6"><input onkeyup="validar()" type="text" maxlength="1" id="data_6"></td>
-  <td id="dt7_cs2"><input onkeyup="validar()" type="text" maxlength="1" id="data_7_cs_2"></td>
-  <td></td>
-  <td></td>
-  <td></td>
-</tr>
+
+</div>
+</div>
+</div>
+</div>
 
 
-
-
-
-<tr>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td id="reg7"><input onkeyup="validar()" type="text" maxlength="1" id="regis_7"></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-</tr>
-
-<tr>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td>13</td>
-  <td id="q_1"><input onkeyup="validar()" type="text" maxlength="1" id="quad_1"></td>
-  <td id="q_2"><input onkeyup="validar()" type="text" maxlength="1" id="quad_2"></td>
-  <td id="reg8"><input onkeyup="validar()" type="text" maxlength="1" id="regis_8_quad_3"></td>
-  <td id="q_4"><input onkeyup="validar()" type="text" maxlength="1" id="quad_4"></td>
-  <td></td>
-  <td id="q_5"><input onkeyup="validar()" type="text" maxlength="1" id="quad_5"></td>
-  <td id="q_6"><input onkeyup="validar()" type="text" maxlength="1" id="quad_6"></td>
-  <td id="q_7"><input onkeyup="validar()" type="text" maxlength="1" id="quad_7"></td>
-  <td id="q_8"><input onkeyup="validar()" type="text" maxlength="1" id="quad_8"></td>
-  <td></td>
-  <td></td>
-</tr>
-
-askjdhaskjda
-askjdhaskjdas
-akjshdkjasda
-kajshdkjasda
-
-
-
-<tr>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td>14</td>
-  <td id="reg9"><input onkeyup="validar()" type="text" maxlength="1" id="regis_9_dual_1"></td>
-  <td id="du_2"><input onkeyup="validar()" type="text" maxlength="1" id="dual_2"></td>
-  <td id="du_3"><input onkeyup="validar()" type="text" maxlength="1" id="dual_3"></td>
-  <td id="du_4"><input onkeyup="validar()" type="text" maxlength="1" id="dual_4"></td>
-  <td ></td>
-  <td id="du_5"><input onkeyup="validar()" type="text" maxlength="1" id="dual_5"></td>
-  <td id="du_6"><input onkeyup="validar()" type="text" maxlength="1" id="dual_6"></td>
-  <td id="du_7"><input onkeyup="validar()" type="text" maxlength="1" id="dual_7"></td>
-  <td id="du_8"><input onkeyup="validar()" type="text" maxlength="1" id="dual_8"></td>
-</tr>
-
-<tr>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td id="reg10"><input onkeyup="validar()" type="text" maxlength="1" id="regis_10"></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-</tr>
-
-
-<tr>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td>15</td>
-  <td id="ad_1"><input onkeyup="validar()" type="text" maxlength="1" id="adress_1"></td>
-  <td id="ad_2"><input onkeyup="validar()" type="text" maxlength="1" id="adress_2"></td>
-  <td id="reg11"><input onkeyup="validar()" type="text" maxlength="1" id="regis_11_adress_3"></td>
-  <td id="ad_4"><input onkeyup="validar()" type="text" maxlength="1" id="adress_4"></td>
-  <td id="ad_5"><input onkeyup="validar()" type="text" maxlength="1" id="adress_5"></td>
-  <td id="ad_6"><input onkeyup="validar()" type="text" maxlength="1" id="adress_6"></td>
-  <td></td>
-  <td id="ad_7"><input onkeyup="validar()" type="text" maxlength="1" id="adress_7"></td>
-  <td id="ad_8"><input onkeyup="validar()" type="text" maxlength="1" id="adress_8"></td>
-  <td id="ad_9"><input onkeyup="validar()" type="text" maxlength="1" id="adress_9"></td>
-  <td ></td>
-</tr>
-
-
-
-
-<tr>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td id="reg12"><input onkeyup="validar()" type="text" maxlength="1" id="regis_12"></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-</tr>
-
-<tr>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td>16</td>
-  <td id="f_1"><input onkeyup="validar()" type="text" maxlength="1" id="flash_1"></td>
-  <td id="f_2"><input onkeyup="validar()" type="text" maxlength="1" id="flash_2"></td>
-  <td id="f_3"><input onkeyup="validar()" type="text" maxlength="1" id="flash_3"></td>
-  <td id="reg13"><input onkeyup="validar()" type="text" maxlength="1" id="regis_13_flash_4"></td>
-  <td id="f_5"><input onkeyup="validar()" type="text" maxlength="1" id="flash_5"></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-</tr>
-
-
-   
-</table>
-
-
-    
 </body>
 </html>
 
 <script>
-function validar(){
+  function validar(){
   var  reg_r = regis_1.value
   var  reg_massa_e = massa_9_regis.value
   var  reg_g = regis_3.value
@@ -485,52 +502,77 @@ var flash2 = flash_2.value
 var flash3 = flash_3.value
 var flash5 = flash_5.value 
 
+var dica1 = span_dica1.innerHTML
+var dica2 = span_dica2.innerHTML
+var dica3 = span_dica3.innerHTML
+var dica4 = span_dica4.innerHTML
+var dica5 = span_dica5.innerHTML
+var dica6 = span_dica6.innerHTML
+var dica7 = span_dica7.innerHTML
+var dica8 = span_dica8.innerHTML
+var dica9 = span_dica9.innerHTML
+var dica10 = span_dica10.innerHTML
+var dica11 = span_dica11.innerHTML
+var dica12 = span_dica12.innerHTML
+var dica13 = span_dica13.innerHTML
+var dica14 = span_dica14.innerHTML
+var dica15 = span_dica15.innerHTML
+var dica16 = span_dica16.innerHTML
+
+
   
   
   if (reg_r = 'r' && reg_massa_e == 'e' && reg_g == 'g' && reg_i5_i == 'i' && reg_s == 's' && reg_data3_t == 't' && reg_r2 == 'r' &&
   reg_quad_a == 'a' && reg_dual_d == 'd' && reg_o == 'o' && reg_adress_r == 'r' && reg_e == 'e' && reg_flash_s == 's') {
-  reg1.style.backgroundColor = 'green'
-  reg2_m9.style.backgroundColor = 'green'
-  reg3.style.backgroundColor = 'green'
-  reg4_i51.style.backgroundColor = 'green'
-  reg5.style.backgroundColor = 'green'
-  reg6_dt3.style.backgroundColor = 'green'
-  reg7.style.backgroundColor = 'green'
-  reg8.style.backgroundColor = 'green'
-  reg9.style.backgroundColor = 'green'
-  reg10.style.backgroundColor = 'green'
-  reg11.style.backgroundColor = 'green'
-  reg12.style.backgroundColor = 'green'
-  reg13.style.backgroundColor = 'green'
+  reg1.style.borderColor = 'rgb(37, 192, 58)'
+  reg2_m9.style.borderColor = 'rgb(37, 192, 58)'
+  reg3.style.borderColor = 'rgb(37, 192, 58)'
+  reg4_i51.style.borderColor = 'rgb(37, 192, 58)'
+  reg5.style.borderColor = 'rgb(37, 192, 58)'
+  reg6_dt3.style.borderColor = 'rgb(37, 192, 58)'
+  reg7.style.borderColor = 'rgb(37, 192, 58)'
+  reg8.style.borderColor = 'rgb(37, 192, 58)'
+  reg9.style.borderColor = 'rgb(37, 192, 58)'
+  reg10.style.borderColor = 'rgb(37, 192, 58)'
+  reg11.style.borderColor = 'rgb(37, 192, 58)'
+  reg12.style.borderColor = 'rgb(37, 192, 58)'
+  reg13.style.borderColor = 'rgb(37, 192, 58)'
+  span_dica1.innerHTML = `<s> ${dica1} </s>`
 }
 
+
+
+
 if (dma1 == "d" && dma2 == "m" && dma3 == "a") {
-  d_1.style.backgroundColor = 'green'
-  d_2.style.backgroundColor = 'green'
-  d_3.style.backgroundColor = 'green'
+  d_1.style.borderColor = 'rgb(37, 192, 58)'
+  d_2.style.borderColor = 'rgb(37, 192, 58)'
+  d_3.style.borderColor = 'rgb(37, 192, 58)'
+  span_dica11.innerHTML = `<s> ${dica11} </s>`
 }
 
 
    if (massa2_eprom1 == 'e' && eprom2 == 'p' && eprom3 == 'r' && eprom4 == 'o' && dma2 == 'm') {
-     m2.style.backgroundColor = "green"
-     e_2.style.backgroundColor = "green"
-     e_3.style.backgroundColor = "green"
-     e_4.style.backgroundColor = "green"
-     d_2.style.backgroundColor = "green"
-     
+     m2.style.borderColor = "rgb(37, 192, 58)"
+     e_2.style.borderColor = "rgb(37, 192, 58)"
+     e_3.style.borderColor = "rgb(37, 192, 58)"
+     e_4.style.borderColor = "rgb(37, 192, 58)"
+     d_2.style.borderColor = "rgb(37, 192, 58)"
+     span_dica4.innerHTML = `<s> ${dica4} </s>`
      
    }
    if (cp1 == 'c' && cp2 == 'p' && cp_ula_3 == 'u') {
- cpu1.style.backgroundColor = "green"
- cpu2.style.backgroundColor = "green"
- cpu3.style.backgroundColor = "green"
+ cpu1.style.borderColor = "rgb(37, 192, 58)"
+ cpu2.style.borderColor = "rgb(37, 192, 58)"
+ cpu3.style.borderColor = "rgb(37, 192, 58)"
+ span_dica6.innerHTML = `<s> ${dica6} </s>`
    }
    
   
   if (r1 == 'r' && r2 == 'a' && massa1_ram3 ==  'm') {
-    ram1.style.backgroundColor = 'green'
-    ram2.style.backgroundColor = 'green'
-    m1_ram3.style.backgroundColor = 'green'
+    ram1.style.borderColor = 'rgb(37, 192, 58)'
+    ram2.style.borderColor = 'rgb(37, 192, 58)'
+    m1_ram3.style.borderColor = 'rgb(37, 192, 58)'
+    span_dica3.innerHTML = `<s> ${dica3} </s>`
     
   }
 
@@ -538,109 +580,135 @@ if (dma1 == "d" && dma2 == "m" && dma3 == "a") {
 
   if (massa1_ram3 == 'm' && massa2_eprom1 == 'e' && massa3 == 'm' && massa4 == 'o' && massa5 == 'r' && massa6_i71 == 'i' && massa7 == 'a' &&
   massa8 == 'd' && reg_massa_e == 'e' && massa10 == 'm' && massa11 == 'a' && massa12 == 's' && massa13 == 's' && massa14 == 'a') {
-    m1_ram3.style.backgroundColor = "green"
-    m2.style.backgroundColor = "green"
-    m3.style.backgroundColor = "green"
-    m4.style.backgroundColor = "green"
-    m5.style.backgroundColor = "green"
-    m6.style.backgroundColor = "green"
-    m7.style.backgroundColor = "green"
-    m8.style.backgroundColor = "green"
-    reg2_m9.style.backgroundColor = "green"
-    m10.style.backgroundColor = "green"
-    m11.style.backgroundColor = "green"
-    m12.style.backgroundColor = "green"
-    m13.style.backgroundColor = "green"
-    m14.style.backgroundColor = "green"
+    m1_ram3.style.borderColor = "rgb(37, 192, 58)"
+    m2.style.borderColor = "rgb(37, 192, 58)"
+    m3.style.borderColor = "rgb(37, 192, 58)"
+    m4.style.borderColor = "rgb(37, 192, 58)"
+    m5.style.borderColor = "rgb(37, 192, 58)"
+    m6.style.borderColor = "rgb(37, 192, 58)"
+    m7.style.borderColor = "rgb(37, 192, 58)"
+    m8.style.borderColor = "rgb(37, 192, 58)"
+    reg2_m9.style.borderColor = "rgb(37, 192, 58)"
+    m10.style.borderColor = "rgb(37, 192, 58)"
+    m11.style.borderColor = "rgb(37, 192, 58)"
+    m12.style.borderColor = "rgb(37, 192, 58)"
+    m13.style.borderColor = "rgb(37, 192, 58)"
+    m14.style.borderColor = "rgb(37, 192, 58)"
+    span_dica8.innerHTML = `<s> ${dica8} </s>`
 
   }
 
   
 
   if (massa5 == 'r' && r_2 == 'o' && r_3 == 'm') {
-    m5.style.backgroundColor = "green"
-    rom2.style.backgroundColor = "green"
-    rom3.style.backgroundColor = "green"
+    m5.style.borderColor = "rgb(37, 192, 58)"
+    rom2.style.borderColor = "rgb(37, 192, 58)"
+    rom3.style.borderColor = "rgb(37, 192, 58)"
+    span_dica5.innerHTML = `<s> ${dica5} </s>`
   }
 
 
  if (cp_ula_3 == 'u' && u_2 == 'l' && massa14 == 'a') {
-  cpu3.style.backgroundColor = "green"
-    ula2.style.backgroundColor = "green"
-    m14.style.backgroundColor = "green"
+  cpu3.style.borderColor = "rgb(37, 192, 58)"
+    ula2.style.borderColor = "rgb(37, 192, 58)"
+    m14.style.borderColor = "rgb(37, 192, 58)"
+    span_dica7.innerHTML = `<s> ${dica7} </s>`
  }
   
  if (massa6_i71 == 'i' && i72 == '7') {
-  m6.style.backgroundColor = "green"
-  i_7.style.backgroundColor = "green"
+  m6.style.borderColor = "rgb(37, 192, 58)"
+  i_7.style.borderColor = "rgb(37, 192, 58)"
+  span_dica2.innerHTML = `<s> ${dica2} </s>`
  }
 
  if (reg_i5_i == 'i' && i52 == '5') {
-  reg4_i51.style.backgroundColor = 'green'
-  i_5.style.backgroundColor = 'green'
+  reg4_i51.style.borderColor = 'rgb(37, 192, 58)'
+  i_5.style.borderColor = 'rgb(37, 192, 58)'
+  span_dica9.innerHTML = `<s> ${dica9} </s>`
  }
 
 if (data1 == 'd' && data2 == 'a' && reg_data3_t == 't' && data4 == 'a' && data5 == 'b' && data6 == 'u' && data7_cs2 == 's') {
-dt1.style.backgroundColor = 'green'
-dt2.style.backgroundColor = 'green'
-reg6_dt3.style.backgroundColor = 'green'
-dt4.style.backgroundColor = 'green'
-dt5.style.backgroundColor = 'green'
-dt6.style.backgroundColor = 'green'
-dt7_cs2.style.backgroundColor = 'green'
+dt1.style.borderColor = 'rgb(37, 192, 58)'
+dt2.style.borderColor = 'rgb(37, 192, 58)'
+reg6_dt3.style.borderColor = 'rgb(37, 192, 58)'
+dt4.style.borderColor = 'rgb(37, 192, 58)'
+dt5.style.borderColor = 'rgb(37, 192, 58)'
+dt6.style.borderColor = 'rgb(37, 192, 58)'
+dt7_cs2.style.borderColor = 'rgb(37, 192, 58)'
+span_dica12.innerHTML = `<s> ${dica12} </s>`
 }
  
 if (cs1 == 'c' && data7_cs2 == 's') {
-  c_1.style.backgroundColor = 'green'
-  dt7_cs2.style.backgroundColor = 'green'
+  c_1.style.borderColor = 'rgb(37, 192, 58)'
+  dt7_cs2.style.borderColor = 'rgb(37, 192, 58)'
+  span_dica10.innerHTML = `<s> ${dica10} </s>`
 }
 
 if (quad1 == 'q' && quad2 == 'u' && reg_quad_a == 'a' && quad4 == 'd' && quad5 == 'c' && quad6 == 'o' && quad7 == 'r'
  && quad8 == 'e') {
-   q_1.style.backgroundColor = 'green'
-   q_2.style.backgroundColor = 'green'
-  reg8.style.backgroundColor = 'green'
-  q_4.style.backgroundColor = 'green'
-  q_5.style.backgroundColor = 'green'
-  q_6.style.backgroundColor = 'green'
-  q_7.style.backgroundColor = 'green'
-  q_8.style.backgroundColor = 'green'
+   q_1.style.borderColor = 'rgb(37, 192, 58)'
+   q_2.style.borderColor = 'rgb(37, 192, 58)'
+  reg8.style.borderColor = 'rgb(37, 192, 58)'
+  q_4.style.borderColor = 'rgb(37, 192, 58)'
+  q_5.style.borderColor = 'rgb(37, 192, 58)'
+  q_6.style.borderColor = 'rgb(37, 192, 58)'
+  q_7.style.borderColor = 'rgb(37, 192, 58)'
+  q_8.style.borderColor = 'rgb(37, 192, 58)'
+  span_dica13.innerHTML = `<s> ${dica13} </s>`
 }
 
 if (reg_dual_d == 'd' && dual2 == 'u' && dual3 == 'a' && dual4 == 'l' && dual5 == 'c' && dual6 == 'o'
 && dual7 == 'r' && dual8 == 'e') {
-  du_2.style.backgroundColor = 'green'
-  du_3.style.backgroundColor = 'green'
-  du_4.style.backgroundColor = 'green'
-  du_5.style.backgroundColor = 'green'
-  du_6.style.backgroundColor = 'green'
-  du_7.style.backgroundColor = 'green'
-  du_8.style.backgroundColor = 'green'
-  reg9.style.backgroundColor = 'green'
+  du_2.style.borderColor = 'rgb(37, 192, 58)'
+  du_3.style.borderColor = 'rgb(37, 192, 58)'
+  du_4.style.borderColor = 'rgb(37, 192, 58)'
+  du_5.style.borderColor = 'rgb(37, 192, 58)'
+  du_6.style.borderColor = 'rgb(37, 192, 58)'
+  du_7.style.borderColor = 'rgb(37, 192, 58)'
+  du_8.style.borderColor = 'rgb(37, 192, 58)'
+  reg9.style.borderColor = 'rgb(37, 192, 58)'
+  span_dica14.innerHTML = `<s> ${dica14} </s>`
 }
 
 if (adress1 == 'a' && adress2 == 'd' && reg_adress_r == 'r' && adress4 == 'e'  && adress5 == 's'  && adress6 == 's'
 && adress7 == 'b'  && adress8 == 'u'  && adress9 == 's') {
-ad_1.style.backgroundColor = 'green'
-ad_2.style.backgroundColor = 'green'
-reg11.style.backgroundColor = 'green'
-ad_4.style.backgroundColor = 'green'
-ad_5.style.backgroundColor = 'green'
-ad_6.style.backgroundColor = 'green'
-ad_7.style.backgroundColor = 'green'
-ad_8.style.backgroundColor = 'green'
-ad_9.style.backgroundColor = 'green'
+ad1.style.borderColor = 'rgb(37, 192, 58)'
+ad2.style.borderColor = 'rgb(37, 192, 58)'
+reg11.style.borderColor = 'rgb(37, 192, 58)'
+ad4.style.borderColor = 'rgb(37, 192, 58)'
+ad5.style.borderColor = 'rgb(37, 192, 58)'
+ad6.style.borderColor = 'rgb(37, 192, 58)'
+ad7.style.borderColor = 'rgb(37, 192, 58)'
+ad8.style.borderColor = 'rgb(37, 192, 58)'
+ad9.style.borderColor = 'rgb(37, 192, 58)'
+span_dica15.innerHTML = `<s> ${dica15} </s>`
 }
 
 if (flash1 == 'f' && flash2 == 'l' && flash3 == 'a' && reg_flash_s == 's' && flash5 == 'h') {
-  f_1.style.backgroundColor = 'green'
-  f_2.style.backgroundColor = 'green'
-  f_3.style.backgroundColor = 'green'
-  reg13.style.backgroundColor = 'green'
-  f_5.style.backgroundColor = 'green'
+  f_1.style.borderColor = 'rgb(37, 192, 58)'
+  f_2.style.borderColor = 'rgb(37, 192, 58)'
+  f_3.style.borderColor = 'rgb(37, 192, 58)'
+  reg13.style.borderColor = 'rgb(37, 192, 58)'
+  f_5.style.borderColor = 'rgb(37, 192, 58)'
+  span_dica16.innerHTML = `<s> ${dica16} </s>`
 }
 
 }
+
+function jumpto(campoatual, proxcampo, outrocaminho) {
+  var tamanho_max = eval("document.F1." + campoatual + ".maxLength");
+  var tamanho_atual = eval("document.F1." + campoatual + ".value.length");
+  var prox_tamanho = eval("document.F1." + proxcampo + ".value.length");
+  if (tamanho_atual = prox_tamanho) {
+    eval("document.F1." + outrocaminho + ".focus();");
+  } else {
+ eval("document.F1." + proxcampo + ".focus();");
+  }
+}
+
+
+
+ 
 
 
 </script>
